@@ -1,0 +1,3 @@
+[submodule "CocoaLinear"]
+	path = CocoaLinear
+	url = git://github.com/brow/cocoa-linear.git

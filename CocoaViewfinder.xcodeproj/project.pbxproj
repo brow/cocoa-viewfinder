@@ -14,15 +14,40 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		D3F388C9116DA1B8003E7526 /* pic_0.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F388B9116DA1B8003E7526 /* pic_0.png */; };
-		D3F388CA116DA1B8003E7526 /* DigestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F388BB116DA1B8003E7526 /* DigestTests.m */; };
-		D3F388CB116DA1B8003E7526 /* UtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F388BD116DA1B8003E7526 /* UtilityTests.m */; };
 		D3F388CC116DA1B8003E7526 /* RawImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F388C0116DA1B8003E7526 /* RawImage.m */; };
 		D3F388CD116DA1B8003E7526 /* GrayscaleRawImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F388C2116DA1B8003E7526 /* GrayscaleRawImage.m */; };
 		D3F388CE116DA1B8003E7526 /* Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F388C4116DA1B8003E7526 /* Digest.m */; };
 		D3F388CF116DA1B8003E7526 /* Digest3DAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F388C6116DA1B8003E7526 /* Digest3DAlignment.m */; };
 		D3F388D0116DA1B8003E7526 /* DigestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F388C8116DA1B8003E7526 /* DigestUtilities.m */; };
-		D3F388E7116DA1D2003E7526 /* libGHUnitIPhone3_0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F388D8116DA1D2003E7526 /* libGHUnitIPhone3_0.a */; };
-		D3F388E8116DA1D2003E7526 /* GHUnitIPhoneTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F388E2116DA1D2003E7526 /* GHUnitIPhoneTestMain.m */; };
+		D3F38975116DAAF8003E7526 /* CLConversions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F38963116DAAF8003E7526 /* CLConversions.m */; };
+		D3F38976116DAAF8003E7526 /* CLMatrix2x2.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F38965116DAAF8003E7526 /* CLMatrix2x2.m */; };
+		D3F38977116DAAF8003E7526 /* CLMatrix3x3.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F38967116DAAF8003E7526 /* CLMatrix3x3.m */; };
+		D3F38978116DAAF8003E7526 /* CLQuaternion.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F38969116DAAF8003E7526 /* CLQuaternion.m */; };
+		D3F38979116DAAF8003E7526 /* CLVector.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F3896B116DAAF8003E7526 /* CLVector.m */; };
+		D3F3897E116DAB03003E7526 /* CLMatrix3x3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F3896E116DAAF8003E7526 /* CLMatrix3x3Tests.m */; };
+		D3F3897F116DAB03003E7526 /* CLQuaternionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F38970116DAAF8003E7526 /* CLQuaternionTests.m */; };
+		D3F38980116DAB03003E7526 /* CLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F38972116DAAF8003E7526 /* CLTests.m */; };
+		D3F38981116DAB03003E7526 /* CLVectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F38974116DAAF8003E7526 /* CLVectorTests.m */; };
+		D3F38994116DAB40003E7526 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F38993116DAB40003E7526 /* Utility.m */; };
+		D3F38995116DAB40003E7526 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F38993116DAB40003E7526 /* Utility.m */; };
+		D3F389A2116DAB82003E7526 /* libGHUnitIPhone3_0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F388D8116DA1D2003E7526 /* libGHUnitIPhone3_0.a */; };
+		D3F389AE116DABFF003E7526 /* GHUnitIPhoneTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F388E2116DA1D2003E7526 /* GHUnitIPhoneTestMain.m */; };
+		D3F389BD116DAC20003E7526 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F389BC116DAC20003E7526 /* QuartzCore.framework */; };
+		D3F389BE116DAC20003E7526 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F389BC116DAC20003E7526 /* QuartzCore.framework */; };
+		D3F389DB116DAC51003E7526 /* RawImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F388C0116DA1B8003E7526 /* RawImage.m */; };
+		D3F389DC116DAC51003E7526 /* GrayscaleRawImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F388C2116DA1B8003E7526 /* GrayscaleRawImage.m */; };
+		D3F389DD116DAC51003E7526 /* Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F388C4116DA1B8003E7526 /* Digest.m */; };
+		D3F389DE116DAC51003E7526 /* Digest3DAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F388C6116DA1B8003E7526 /* Digest3DAlignment.m */; };
+		D3F389DF116DAC51003E7526 /* DigestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F388C8116DA1B8003E7526 /* DigestUtilities.m */; };
+		D3F389E0116DAC64003E7526 /* CLConversions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F38963116DAAF8003E7526 /* CLConversions.m */; };
+		D3F389E1116DAC64003E7526 /* CLMatrix2x2.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F38965116DAAF8003E7526 /* CLMatrix2x2.m */; };
+		D3F389E2116DAC64003E7526 /* CLMatrix3x3.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F38967116DAAF8003E7526 /* CLMatrix3x3.m */; };
+		D3F389E3116DAC64003E7526 /* CLQuaternion.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F38969116DAAF8003E7526 /* CLQuaternion.m */; };
+		D3F389E4116DAC64003E7526 /* CLVector.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F3896B116DAAF8003E7526 /* CLVector.m */; };
+		D3F38A07116DAC72003E7526 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		D3F38A66116DACCA003E7526 /* UtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F388BD116DA1B8003E7526 /* UtilityTests.m */; };
+		D3F38A6D116DACF5003E7526 /* DigestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F388BB116DA1B8003E7526 /* DigestTests.m */; };
+		D3F38A94116DADB0003E7526 /* pic_0.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F388B9116DA1B8003E7526 /* pic_0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +93,27 @@
 		D3F388E6116DA1D2003E7526 /* GHTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTest.h; sourceTree = "<group>"; };
 		D3F388EE116DA209003E7526 /* Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F388F0116DA209003E7526 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		D3F38962116DAAF8003E7526 /* CLConversions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLConversions.h; sourceTree = "<group>"; };
+		D3F38963116DAAF8003E7526 /* CLConversions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLConversions.m; sourceTree = "<group>"; };
+		D3F38964116DAAF8003E7526 /* CLMatrix2x2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMatrix2x2.h; sourceTree = "<group>"; };
+		D3F38965116DAAF8003E7526 /* CLMatrix2x2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMatrix2x2.m; sourceTree = "<group>"; };
+		D3F38966116DAAF8003E7526 /* CLMatrix3x3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMatrix3x3.h; sourceTree = "<group>"; };
+		D3F38967116DAAF8003E7526 /* CLMatrix3x3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMatrix3x3.m; sourceTree = "<group>"; };
+		D3F38968116DAAF8003E7526 /* CLQuaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQuaternion.h; sourceTree = "<group>"; };
+		D3F38969116DAAF8003E7526 /* CLQuaternion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQuaternion.m; sourceTree = "<group>"; };
+		D3F3896A116DAAF8003E7526 /* CLVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLVector.h; sourceTree = "<group>"; };
+		D3F3896B116DAAF8003E7526 /* CLVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLVector.m; sourceTree = "<group>"; };
+		D3F3896D116DAAF8003E7526 /* CLMatrix3x3Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMatrix3x3Tests.h; sourceTree = "<group>"; };
+		D3F3896E116DAAF8003E7526 /* CLMatrix3x3Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMatrix3x3Tests.m; sourceTree = "<group>"; };
+		D3F3896F116DAAF8003E7526 /* CLQuaternionTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLQuaternionTests.h; sourceTree = "<group>"; };
+		D3F38970116DAAF8003E7526 /* CLQuaternionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLQuaternionTests.m; sourceTree = "<group>"; };
+		D3F38971116DAAF8003E7526 /* CLTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTests.h; sourceTree = "<group>"; };
+		D3F38972116DAAF8003E7526 /* CLTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTests.m; sourceTree = "<group>"; };
+		D3F38973116DAAF8003E7526 /* CLVectorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLVectorTests.h; sourceTree = "<group>"; };
+		D3F38974116DAAF8003E7526 /* CLVectorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLVectorTests.m; sourceTree = "<group>"; };
+		D3F38992116DAB40003E7526 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		D3F38993116DAB40003E7526 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		D3F389BC116DAC20003E7526 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +124,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
-				D3F388E7116DA1D2003E7526 /* libGHUnitIPhone3_0.a in Frameworks */,
+				D3F389BD116DAC20003E7526 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +132,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3F389A2116DAB82003E7526 /* libGHUnitIPhone3_0.a in Frameworks */,
+				D3F389BE116DAC20003E7526 /* QuartzCore.framework in Frameworks */,
+				D3F38A07116DAC72003E7526 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +144,6 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D3F388D7116DA1D2003E7526 /* GHUnit */,
 				D3F388BE116DA1B8003E7526 /* Digest */,
 				D3F388B7116DA1B8003E7526 /* Tests */,
 				1D3623240D0F684500981E51 /* CocoaViewfinderAppDelegate.h */,
@@ -116,6 +164,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				D3F38960116DAAB1003E7526 /* 3rd Party */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -129,6 +178,8 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				D3F38992116DAB40003E7526 /* Utility.h */,
+				D3F38993116DAB40003E7526 /* Utility.m */,
 				32CA4F630368D1EE00C91783 /* CocoaViewfinder_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -147,6 +198,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D3F389BC116DAC20003E7526 /* QuartzCore.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
@@ -211,6 +263,50 @@
 				D3F388E6116DA1D2003E7526 /* GHTest.h */,
 			);
 			name = GHUnit;
+			sourceTree = "<group>";
+		};
+		D3F38960116DAAB1003E7526 /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+				D3F38961116DAAF8003E7526 /* CocoaLinear */,
+				D3F388D7116DA1D2003E7526 /* GHUnit */,
+			);
+			name = "3rd Party";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D3F38961116DAAF8003E7526 /* CocoaLinear */ = {
+			isa = PBXGroup;
+			children = (
+				D3F38962116DAAF8003E7526 /* CLConversions.h */,
+				D3F38963116DAAF8003E7526 /* CLConversions.m */,
+				D3F38964116DAAF8003E7526 /* CLMatrix2x2.h */,
+				D3F38965116DAAF8003E7526 /* CLMatrix2x2.m */,
+				D3F38966116DAAF8003E7526 /* CLMatrix3x3.h */,
+				D3F38967116DAAF8003E7526 /* CLMatrix3x3.m */,
+				D3F38968116DAAF8003E7526 /* CLQuaternion.h */,
+				D3F38969116DAAF8003E7526 /* CLQuaternion.m */,
+				D3F3896A116DAAF8003E7526 /* CLVector.h */,
+				D3F3896B116DAAF8003E7526 /* CLVector.m */,
+				D3F3896C116DAAF8003E7526 /* Tests */,
+			);
+			name = CocoaLinear;
+			path = CocoaLinear/CocoaLinear;
+			sourceTree = SOURCE_ROOT;
+		};
+		D3F3896C116DAAF8003E7526 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D3F3896D116DAAF8003E7526 /* CLMatrix3x3Tests.h */,
+				D3F3896E116DAAF8003E7526 /* CLMatrix3x3Tests.m */,
+				D3F3896F116DAAF8003E7526 /* CLQuaternionTests.h */,
+				D3F38970116DAAF8003E7526 /* CLQuaternionTests.m */,
+				D3F38971116DAAF8003E7526 /* CLTests.h */,
+				D3F38972116DAAF8003E7526 /* CLTests.m */,
+				D3F38973116DAAF8003E7526 /* CLVectorTests.h */,
+				D3F38974116DAAF8003E7526 /* CLVectorTests.m */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +378,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3F38A94116DADB0003E7526 /* pic_0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,14 +391,17 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* CocoaViewfinderAppDelegate.m in Sources */,
-				D3F388CA116DA1B8003E7526 /* DigestTests.m in Sources */,
-				D3F388CB116DA1B8003E7526 /* UtilityTests.m in Sources */,
 				D3F388CC116DA1B8003E7526 /* RawImage.m in Sources */,
 				D3F388CD116DA1B8003E7526 /* GrayscaleRawImage.m in Sources */,
 				D3F388CE116DA1B8003E7526 /* Digest.m in Sources */,
 				D3F388CF116DA1B8003E7526 /* Digest3DAlignment.m in Sources */,
 				D3F388D0116DA1B8003E7526 /* DigestUtilities.m in Sources */,
-				D3F388E8116DA1D2003E7526 /* GHUnitIPhoneTestMain.m in Sources */,
+				D3F38975116DAAF8003E7526 /* CLConversions.m in Sources */,
+				D3F38976116DAAF8003E7526 /* CLMatrix2x2.m in Sources */,
+				D3F38977116DAAF8003E7526 /* CLMatrix3x3.m in Sources */,
+				D3F38978116DAAF8003E7526 /* CLQuaternion.m in Sources */,
+				D3F38979116DAAF8003E7526 /* CLVector.m in Sources */,
+				D3F38994116DAB40003E7526 /* Utility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +409,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3F3897E116DAB03003E7526 /* CLMatrix3x3Tests.m in Sources */,
+				D3F3897F116DAB03003E7526 /* CLQuaternionTests.m in Sources */,
+				D3F38980116DAB03003E7526 /* CLTests.m in Sources */,
+				D3F38981116DAB03003E7526 /* CLVectorTests.m in Sources */,
+				D3F38995116DAB40003E7526 /* Utility.m in Sources */,
+				D3F389AE116DABFF003E7526 /* GHUnitIPhoneTestMain.m in Sources */,
+				D3F389DB116DAC51003E7526 /* RawImage.m in Sources */,
+				D3F389DC116DAC51003E7526 /* GrayscaleRawImage.m in Sources */,
+				D3F389DD116DAC51003E7526 /* Digest.m in Sources */,
+				D3F389DE116DAC51003E7526 /* Digest3DAlignment.m in Sources */,
+				D3F389DF116DAC51003E7526 /* DigestUtilities.m in Sources */,
+				D3F389E0116DAC64003E7526 /* CLConversions.m in Sources */,
+				D3F389E1116DAC64003E7526 /* CLMatrix2x2.m in Sources */,
+				D3F389E2116DAC64003E7526 /* CLMatrix3x3.m in Sources */,
+				D3F389E3116DAC64003E7526 /* CLQuaternion.m in Sources */,
+				D3F389E4116DAC64003E7526 /* CLVector.m in Sources */,
+				D3F38A66116DACCA003E7526 /* UtilityTests.m in Sources */,
+				D3F38A6D116DACF5003E7526 /* DigestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +507,10 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
 				INFOPLIST_FILE = "Tests-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+				);
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -415,6 +537,10 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
 				INFOPLIST_FILE = "Tests-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+				);
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
